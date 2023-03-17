@@ -1,6 +1,6 @@
 
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
+    <!--  Brand Logo  -->
     <a href="/{{ Auth::user()->level == 'admin' ? 'admin' : 'petugas' }}" class="brand-link">
       <img src="{{ asset('admin-lte') }}/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Lelang Online</span>
