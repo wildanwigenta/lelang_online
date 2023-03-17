@@ -126,6 +126,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     @if ($message = Session::get('success'))
         Swal.fire({
             title: 'App said:',
+			
             text: '{{ $message }}',
             icon: 'success',
         });
