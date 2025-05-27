@@ -24,7 +24,7 @@
           <li class="nav-item">
             <a href="/{{ Auth::user()->level == 'admin' ? 'admin' : 'petugas' }}" class="nav-link {{ $sidebar == 'dashboard' ? 'active' : '' }}">
               <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>Dashboard</p>
+              <p>Dashboard</p> 
             </a>
           </li>
           @if(Auth::user()->level == 'admin')

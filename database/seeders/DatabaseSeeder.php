@@ -21,6 +21,19 @@ class DatabaseSeeder extends Seeder
             'email' => 'wildanwigenta52@gmail.com',
             'password' => Hash::make('adminlelang'),
             'level' => 'admin'
-        ]);
+        ],
+        [
+            'name' => 'andi',
+            'email' => 'andipetugas@gmail.com',
+            'password' => Hash::make('petugaslelang'),
+            'level' => 'petugas'
+        ],
+        [
+            'name' => 'fawwaz',
+            'email' => 'andipetugas@gmail.com',
+            'password' => Hash::make('petugaslelang'),
+            'level' => 'petugas'
+        ]
+    );
     }
 }

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->date('tgl_lelang');
             $table->integer('harga_akhir');
             $table->unsignedBigInteger('id');
-            $table->foreign('id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('id')->references('id')->on('users')->onDelete('cascade'); 
             $table->enum('status',['dibuka','ditutup']);
             $table->timestamps();
         });
