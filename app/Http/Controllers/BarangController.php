@@ -89,7 +89,6 @@ class BarangController extends Controller
         }else if(Auth::user()->level == 'petugas'){
             return redirect()->to('petugas/barang')->with('update','update sucessfully');
         }
-
     }
     public function add_barang_lelang(Request $request)
     {
@@ -126,5 +125,4 @@ class BarangController extends Controller
             return redirect()->to('/petugas/barang')->with('delete','delete sucessfully');
         }
     }
-    
 }
