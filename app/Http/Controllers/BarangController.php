@@ -43,7 +43,7 @@ class BarangController extends Controller
             'image' => $file_name,
             'deskripsi_barang' => request()->deskripsi_barang,
             'harga_awal' => request()->harga_awal,
-            'tgl' => request()->tgl,
+            'tgl' => request()->tgl,7
         ];
 
         Barang::insert($data);
