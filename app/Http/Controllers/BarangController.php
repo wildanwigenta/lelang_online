@@ -39,7 +39,7 @@ class BarangController extends Controller
         ]);
 
         $data = [
-            'nama_barang' => request()->nama_barang,
+            'nama_barang' => request()->nama_barang, 
             'image' => $file_name,
             'deskripsi_barang' => request()->deskripsi_barang,
             'harga_awal' => request()->harga_awal,
